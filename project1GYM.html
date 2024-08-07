@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Fitness</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/abs-1850926_1920.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        /*border: 2px solid red;*/
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        text-align: center;
+        font-size: small;
+    }
+
+    .mid {
+        display: block;
+        width: 35%;
+        margin: 25px auto;
+
+        /*border: 2px solid green;*/
+
+
+
+    }
+
+    .right {
+        /*border: 2px solid yellow;*/
+        position: absolute;
+        right: 34px;
+        top: 30px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 25px 22px;
+
+    }
+
+    .navbar li a:hover {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid whitesmoke;
+        border-radius: 10px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(45, 44, 44);
+    }
+
+    .container {
+        /*border: 2px solid white;*/
+        margin: 100px 30px;
+        padding: 70px 40px;
+        width: 37%;
+        border-radius: 10px;
+
+
+    }
+
+    .form-group input {
+        display: block;
+        text-align: center;
+        width: 508px;
+        margin: 7px auto;
+        padding: 0.5px;
+        border: 2px solid black;
+        font-size: 25px;
+        border-radius: 8px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 35%;
+        margin: 25px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="img/sports-1975689_640.png" alt="Image not found">
+            <div>POWER FITNESS</div>
+
+        </div>
+        <!--middle box for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROGRAMS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+
+            </ul>
+
+        </div>
+        <!--rigth box for buttons-->
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>JOIN NOW</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" class="" id="" placeholder="Enter your NAME">
+            </div>
+            <div class="form-group">
+                <input type="text" class="" id="" placeholder="Enter your AGE">
+            </div>
+            <div class="form-group">
+                <input type="text" class="" id="" placeholder="Enter your GENDER">
+            </div>
+            <div class="form-group">
+                <input type="text" class="" id="" placeholder="Enter your LOCALITY">
+            </div>
+            <button class="btn">
+                SUBMIT
+            </button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
